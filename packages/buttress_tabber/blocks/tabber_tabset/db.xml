@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+    <table name="btTabberTabset">
+        <field name="bID" type="I">
+            <KEY />
+            <UNSIGNED />
+        </field>
+        <field name="template" type="X2" />
+        <field name="name" type="X2" />
+    </table>
+
+</schema>

@@ -1,0 +1,32 @@
+.buttress-tabset {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.buttress-tabset > .buttress-tabset-labels {
+  height: 30px;
+  margin-bottom: -1px;
+}
+.buttress-tabset > .buttress-tabset-labels > ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.buttress-tabset > .buttress-tabset-labels > ul > li.buttress-tabset-label {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  background: #eee;
+  margin-left: 5px;
+  border: solid 1px #ccc;
+  cursor: pointer;
+}
+.buttress-tabset > .buttress-tabset-labels > ul > li.buttress-tabset-label.active {
+  background: #fefefe;
+  border-bottom: none;
+}
+.buttress-tabset > .buttress-tabset-tabs {
+  background: #fefefe;
+  border: solid 1px #ccc;
+  margin-top: -1px;
+}
